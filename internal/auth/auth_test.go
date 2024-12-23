@@ -15,7 +15,7 @@ func TestGetAPIKey(t *testing.T) {
 		expectErr string
 	}{
 		{
-			expectErr: "Zno authorization header",
+			expectErr: "no authorization header",
 		},
 		{
 			key:       "Authorization",
